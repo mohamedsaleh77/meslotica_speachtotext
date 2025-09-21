@@ -27,7 +27,7 @@ npm start
 ## 🎯 Access the System
 
 - **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8001
+- **Backend API**: http://localhost:8000
 
 ## 🧪 Test Immediately
 
@@ -149,7 +149,7 @@ npm start
 
 ## 🎯 Success Metrics
 
-✅ **Backend server running** (http://localhost:8001/health)
+✅ **Backend server running** (http://localhost:8000/health)
 ✅ **Frontend accessible** (http://localhost:3000)
 ✅ **At least one service working** (Whisper as minimum)
 ✅ **File upload transcription working**

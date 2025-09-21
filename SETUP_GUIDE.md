@@ -28,12 +28,12 @@ pip install -r requirements.txt
 ```bash
 python enhanced_whisper_main.py
 ```
-✅ Server runs on `http://localhost:8001`
+✅ Server runs on `http://localhost:8000`
 
 ### Step 4: Test Immediately
 ```bash
 # Test with your audio file
-curl -X POST "http://localhost:8001/api/transcribe" \
+curl -X POST "http://localhost:8000/api/transcribe" \
   -F "file=@your_audio.wav" \
   -F "language=ms"
 ```
@@ -53,24 +53,24 @@ This will test all services with your audio files and show you the accuracy comp
 ### Option 1: Replace Your Current System
 Simply change your API endpoint from your current Whisper to:
 ```
-http://localhost:8001/api/transcribe
+http://localhost:8000/api/transcribe
 ```
 
 ### Option 2: Test Alongside Current System
-Run on port 8001 (new system) alongside your existing systems on ports 8000.
+Run on port 8000 (new system) alongside your existing systems on ports 8000.
 
 ### Option 3: Force Specific Service
 ```python
 # Force highest accuracy (ElevenLabs)
 response = requests.post(
-    "http://localhost:8001/api/transcribe",
+    "http://localhost:8000/api/transcribe",
     files={"file": audio_file},
     data={"force_service": "elevenlabs"}
 )
 
 # Force free Malaysian-specific (Mesolitica)
 response = requests.post(
-    "http://localhost:8001/api/transcribe",
+    "http://localhost:8000/api/transcribe",
     files={"file": audio_file},
     data={"force_service": "mesolitica"}
 )

@@ -59,7 +59,7 @@ echo ========================================
 echo ✅ SYSTEM STARTED SUCCESSFULLY!
 echo ========================================
 echo.
-echo 🎯 Backend Server: http://localhost:8001
+echo 🎯 Backend Server: http://localhost:8000
 echo 🌐 Frontend: http://localhost:3000
 echo.
 echo The frontend will open in your browser automatically.

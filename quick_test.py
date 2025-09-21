@@ -14,7 +14,7 @@ from pathlib import Path
 def test_server_status():
     """Check if the enhanced server is running"""
     try:
-        response = requests.get("http://localhost:8001/health", timeout=5)
+        response = requests.get("http://localhost:8000/health", timeout=5)
         if response.status_code == 200:
             data = response.json()
             print("✅ Enhanced Malaysian STT Server is running!")
@@ -64,7 +64,7 @@ def test_with_sample_audio():
 
             with open(audio_file, 'rb') as f:
                 response = requests.post(
-                    "http://localhost:8001/api/transcribe",
+                    "http://localhost:8000/api/transcribe",
                     files={"file": f},
                     data={"force_service": service, "language": "ms"},
                     timeout=120
@@ -169,7 +169,7 @@ def show_next_steps():
     print("   python test_accuracy.py")
 
     print("\n3. 🔌 Integrate into Your Projects:")
-    print("   • Replace endpoint: http://localhost:8001/api/transcribe")
+    print("   • Replace endpoint: http://localhost:8000/api/transcribe")
     print("   • Use same POST format as your current system")
 
     print("\n4. 🎛️ Configure for Your Needs:")

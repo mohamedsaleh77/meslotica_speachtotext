@@ -49,12 +49,12 @@ pip install git+https://github.com/mesolitica/malaya-speech.git
 python enhanced_whisper_main.py
 ```
 
-Server runs on: `http://localhost:8001`
+Server runs on: `http://localhost:8000`
 
 ### Test Transcription
 ```bash
 # Upload audio file for transcription
-curl -X POST "http://localhost:8001/api/transcribe" \
+curl -X POST "http://localhost:8000/api/transcribe" \
   -H "Content-Type: multipart/form-data" \
   -F "file=@your_audio.wav" \
   -F "language=ms"
@@ -128,7 +128,7 @@ import requests
 
 # Force ElevenLabs for highest accuracy
 response = requests.post(
-    "http://localhost:8001/api/transcribe",
+    "http://localhost:8000/api/transcribe",
     files={"file": open("audio.wav", "rb")},
     data={"force_service": "elevenlabs", "language": "ms"}
 )
@@ -144,7 +144,7 @@ for filename in os.listdir(audio_dir):
     if filename.endswith(('.wav', '.mp3', '.m4a')):
         with open(os.path.join(audio_dir, filename), 'rb') as f:
             response = requests.post(
-                "http://localhost:8001/api/transcribe",
+                "http://localhost:8000/api/transcribe",
                 files={"file": f},
                 data={"language": "ms"}
             )
@@ -186,15 +186,15 @@ Test all services with your audio samples:
 
 ```bash
 # Test with different services
-curl -X POST "http://localhost:8001/api/transcribe" \
+curl -X POST "http://localhost:8000/api/transcribe" \
   -F "file=@test_audio.wav" \
   -F "force_service=elevenlabs"
 
-curl -X POST "http://localhost:8001/api/transcribe" \
+curl -X POST "http://localhost:8000/api/transcribe" \
   -F "file=@test_audio.wav" \
   -F "force_service=mesolitica"
 
-curl -X POST "http://localhost:8001/api/transcribe" \
+curl -X POST "http://localhost:8000/api/transcribe" \
   -F "file=@test_audio.wav" \
   -F "force_service=whisper"
 ```

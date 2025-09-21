@@ -15,7 +15,7 @@ from typing import List, Dict, Any
 class AccuracyTester:
     """Test and compare accuracy of different speech-to-text services"""
 
-    def __init__(self, base_url: str = "http://localhost:8001"):
+    def __init__(self, base_url: str = "http://localhost:8000"):
         self.base_url = base_url
         self.results = []
 

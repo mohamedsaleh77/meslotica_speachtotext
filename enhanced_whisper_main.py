@@ -1126,11 +1126,11 @@ if __name__ == "__main__":
     logger.info("✅ WebSocket thread started")
 
     # Start main FastAPI server
-    logger.info("🚀 Starting main transcription server on port 8001")
+    logger.info("🚀 Starting main transcription server on port 8000")
     uvicorn.run(
         "enhanced_whisper_main:app",
         host="0.0.0.0",
-        port=8001,
+        port=8000,
         reload=False,
         log_level="info"
     )

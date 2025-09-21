@@ -397,7 +397,7 @@ const ServiceStatus = ({ serverStatus, onRefresh }) => {
           </p>
           <div className="space-y-1 text-sm text-red-600">
             <p>• Check that you've started the server with: <code className="bg-red-100 px-1 rounded">python enhanced_whisper_main.py</code></p>
-            <p>• Verify the server is running on port 8001</p>
+            <p>• Verify the server is running on port 8000</p>
             <p>• Check the console for any error messages</p>
           </div>
         </div>

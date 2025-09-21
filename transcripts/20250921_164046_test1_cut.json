@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "transcript": " Anwar Kampung Baru Development Won't Compromise Dignity, Rights and History. Kuala Lumpur, September 18, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, Pertama, P",
+  "confidence": 0.9630762934684753,
+  "language": "ms",
+  "service": "Mesolitica malaysian-whisper-medium",
+  "word_error_rate": 0.12,
+  "model": "mesolitica/malaysian-whisper-medium",
+  "chunks_processed": 1,
+  "saved_at": "2025-09-21T16:40:46.994455",
+  "audio_filename": "test1_cut.mp3",
+  "word_count": 118,
+  "character_count": 1034
+}

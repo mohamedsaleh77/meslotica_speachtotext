@@ -218,7 +218,7 @@ def test_enhanced_server():
 
     try:
         # Check if server is running
-        response = requests.get("http://localhost:8001/health", timeout=5)
+        response = requests.get("http://localhost:8000/health", timeout=5)
 
         if response.status_code == 200:
             data = response.json()
