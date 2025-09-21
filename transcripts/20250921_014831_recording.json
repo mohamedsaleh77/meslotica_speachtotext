@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "transcript": "================================================================================\nTRANSCRIPTION WITH SPEAKER DIARIZATION\n================================================================================\n\n[00:00 - 00:40] Speaker 1:\nApa yang membuatkan saya gembira? Okay, let me think. First of all, of course lah, untuk parents saya kan.\n\nSo, dengan melihat dia orang happy, apa yang saya boleh buat dekat dia orang, mungkin itu adalah, bukan mungkin, itu memang adalah satu kebahagiaan untuk saya lah. And then, I achieve my goal. Contoh-contoh yang boleh buat keluarga awak bahagia macam mana tu?\n\nSaya bawa mereka pergi bercuti. Itu for example lah kan. Lepas tu pergi makan-makan.\n\nPergi makan-makan ke apa ke. Haa, sangat happy yang tu. Orang-orang seronok lah macam tu.\n\nOkay, okay. Thank you. Terima kasih.\n\neh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh eh\n\n----------------------------------------\n\n\n================================================================================\nSUMMARY\n================================================================================\nTotal Speakers: 1\nTotal Duration: 0:40\nTotal Chunks: 3",
+  "confidence": 0.9150053064028422,
+  "language": "ms",
+  "service": "Mesolitica malaysian-whisper-medium (Enhanced V3)",
+  "word_error_rate": 0.12,
+  "model": "mesolitica/malaysian-whisper-medium",
+  "chunks_processed": 3,
+  "total_chunks": 3,
+  "speakers_detected": 1,
+  "chunking_method": "Enhanced V3 with speaker diarization",
+  "processing_mode": "Parallel GPU",
+  "saved_at": "2025-09-21T01:48:31.889318",
+  "audio_filename": "recording.webm",
+  "word_count": 565,
+  "character_count": 2413
+}

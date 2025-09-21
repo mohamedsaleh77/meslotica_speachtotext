@@ -1,0 +1,79 @@
+# Dependencies
+frontend/node_modules/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+*.env
+
+# Model files (too large)
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Audio files
+*.wav
+*.mp3
+*.webm
+*.ogg
+*.flac
+uploads/
+temp/
+temporary_*
+
+# Logs
+*.log
+logs/
+
+# Build files
+frontend/build/
+frontend/dist/
+*.egg-info/
+build/
+dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

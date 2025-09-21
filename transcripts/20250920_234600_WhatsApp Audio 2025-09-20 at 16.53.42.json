@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "transcript": ". Terima kasih. Terima kasih. Terima kasih kerana saya menerima kasih. Terima kasih kerana saya menerima kasih kerana menerima dan setiap hari ini. Setakat hari ini, atasat hari ini, setakat hari ini, setakat hari ini, setakat hari ini, daripada beberapa projek yang ditetapkan, projek dan mengetapkan penjelasan proses dalam projek dan kejelasan projek penjelasan projek penjelasan dan kecepatutif. termasuk memastikan masalah ini dan jelas akan ketelaskan masalah ini dan jelas akan kelepas lagi kelepasan apakah kelebihan daripada mempunyai kelebihan daripada lepas bagi mempunyai keempatan apabilaimana untuk mempunyai keempatan daripada RM5% bagi sumber bagi sumber keembangunan daripada saya, sekian yang perlu melibatakan keempatan daripada saya, saya setiapakah berlis daripada , terima kasih. Terima kasih. Terima kasih atas maka. Yang diberikan oleh ahli-ahli lembagaan yang diberikan oleh jawab. Yang berbahagian, yang berhagaimana telah mengenai keperluan semalam. Yang berhari kerajaan sedang mengenai keperluan semalam. dengan tumpuan kepada latihanan kempuan untuk pegawai kawai kawai kawasan untuk jawatan kerana ini akan memperkawai tangan dan perbukuhkan dalam jayaan masa panjang. Untuk makluman semua, untuk makluman yang akan berhubuh pada mula pada mula pada mula.",
+  "confidence": 0.5158128887414932,
+  "language": "ms",
+  "service": "Mesolitica malaysian-distil-whisper-large-v3 (Smart Chunked)",
+  "word_error_rate": 0.08,
+  "model": "mesolitica/malaysian-distil-whisper-large-v3",
+  "chunks_processed": 4,
+  "total_chunks": 4,
+  "chunking_method": "Smart VAD-based",
+  "saved_at": "2025-09-20T23:46:00.445646",
+  "audio_filename": "WhatsApp Audio 2025-09-20 at 16.53.42.mp3",
+  "word_count": 178,
+  "character_count": 1286
+}

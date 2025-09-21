@@ -1,0 +1,7 @@
+Transcript - 2025-09-21 07:13:21
+Service: Mesolitica malaysian-whisper-medium
+Confidence: 95.15%
+Audio: streaming_chunk_1.webm
+------------------------------------------------------------
+
+ Ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil amb

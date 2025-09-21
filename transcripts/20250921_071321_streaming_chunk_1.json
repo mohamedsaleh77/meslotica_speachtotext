@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "transcript": " Ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil ambil amb",
+  "confidence": 0.9514836072921753,
+  "language": "ms",
+  "service": "Mesolitica malaysian-whisper-medium",
+  "word_error_rate": 0.12,
+  "model": "mesolitica/malaysian-whisper-medium",
+  "chunks_processed": 1,
+  "saved_at": "2025-09-21T07:13:21.601189",
+  "audio_filename": "streaming_chunk_1.webm",
+  "word_count": 157,
+  "character_count": 940
+}

@@ -1,0 +1,1219 @@
+{
+  "success": true,
+  "transcript": "Hi, nama saya Tahira. Anda sedang menyaksikan Easy Malay. Soalan saya pada hari ini, apa yang membuatkan awak gembira? So, jom kita terjauh-jauh. Apa yang membuatkan saya gembira? Okay, let me think. First of all, of course lah. Untuk parents saya kan. So dengan melihat dia orang happy, apa yang saya boleh buat dekat dia orang, mungkin itu adalah, bukan mungkin itu memang adalah satu kebahagiaan untuk saya lah. And then I achieve my goal. Contoh-contoh yang boleh buat keluar keluar bahagia macam mana tu? Saya bawa dia orang pergi bercuti. Itu for an example lah kan. Lepas tu pergi dia orang makan-makan. Pergi makan-makan ke apa ke. Sangat happy yang itu. Alright, alright. Seronoklah bercinta. Okey, okey. Thank you. Terima kasih.",
+  "confidence": 0.75,
+  "language": "ms",
+  "service": "OpenAI Whisper large-v2",
+  "word_error_rate": 0.25,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 2.5599999999999987,
+      "end": 5.92,
+      "text": " Hi, nama saya Tahira. Anda sedang menyaksikan Easy Malay.",
+      "tokens": [
+        50364,
+        2421,
+        11,
+        297,
+        2404,
+        9160,
+        31027,
+        4271,
+        13,
+        40480,
+        9643,
+        656,
+        46975,
+        5461,
+        16048,
+        462,
+        64,
+        3187,
+        5746,
+        320,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3683390818851095,
+      "compression_ratio": 1.4094488188976377,
+      "no_speech_prob": 0.30733761191368103,
+      "words": [
+        {
+          "word": " Hi,",
+          "start": 2.5599999999999987,
+          "end": 3.08,
+          "probability": 0.31479042768478394
+        },
+        {
+          "word": " nama",
+          "start": 3.24,
+          "end": 3.38,
+          "probability": 0.9297620356082916
+        },
+        {
+          "word": " saya",
+          "start": 3.38,
+          "end": 3.6,
+          "probability": 0.7875915169715881
+        },
+        {
+          "word": " Tahira.",
+          "start": 3.6,
+          "end": 3.98,
+          "probability": 0.8988550305366516
+        },
+        {
+          "word": " Anda",
+          "start": 4.18,
+          "end": 4.36,
+          "probability": 0.7476634979248047
+        },
+        {
+          "word": " sedang",
+          "start": 4.36,
+          "end": 4.64,
+          "probability": 0.9079707264900208
+        },
+        {
+          "word": " menyaksikan",
+          "start": 4.64,
+          "end": 5.22,
+          "probability": 0.9223702351252238
+        },
+        {
+          "word": " Easy",
+          "start": 5.22,
+          "end": 5.58,
+          "probability": 0.49385366837183636
+        },
+        {
+          "word": " Malay.",
+          "start": 5.58,
+          "end": 5.92,
+          "probability": 0.8142536282539368
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.28,
+      "end": 8.84,
+      "text": " Soalan saya pada hari ini, apa yang membuatkan awak gembira?",
+      "tokens": [
+        50664,
+        407,
+        14163,
+        9160,
+        26069,
+        33264,
+        7408,
+        11,
+        15951,
+        5581,
+        1334,
+        45143,
+        5225,
+        13726,
+        7173,
+        65,
+        4271,
+        30,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3683390818851095,
+      "compression_ratio": 1.4094488188976377,
+      "no_speech_prob": 0.30733761191368103,
+      "words": [
+        {
+          "word": " Soalan",
+          "start": 6.28,
+          "end": 6.44,
+          "probability": 0.9400019347667694
+        },
+        {
+          "word": " saya",
+          "start": 6.44,
+          "end": 6.66,
+          "probability": 0.7747702598571777
+        },
+        {
+          "word": " pada",
+          "start": 6.66,
+          "end": 6.88,
+          "probability": 0.7966124415397644
+        },
+        {
+          "word": " hari",
+          "start": 6.88,
+          "end": 7.1,
+          "probability": 0.8757454752922058
+        },
+        {
+          "word": " ini,",
+          "start": 7.1,
+          "end": 7.36,
+          "probability": 0.7631990909576416
+        },
+        {
+          "word": " apa",
+          "start": 7.72,
+          "end": 7.9,
+          "probability": 0.6405762434005737
+        },
+        {
+          "word": " yang",
+          "start": 7.9,
+          "end": 8.04,
+          "probability": 0.8828923106193542
+        },
+        {
+          "word": " membuatkan",
+          "start": 8.04,
+          "end": 8.34,
+          "probability": 0.6306549112002054
+        },
+        {
+          "word": " awak",
+          "start": 8.34,
+          "end": 8.44,
+          "probability": 0.6972587704658508
+        },
+        {
+          "word": " gembira?",
+          "start": 8.44,
+          "end": 8.84,
+          "probability": 0.9388819138209025
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.22,
+      "end": 10.56,
+      "text": " So, jom kita terjauh-jauh.",
+      "tokens": [
+        50814,
+        407,
+        11,
+        361,
+        298,
+        8965,
+        1796,
+        73,
+        1459,
+        71,
+        12,
+        73,
+        1459,
+        71,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3683390818851095,
+      "compression_ratio": 1.4094488188976377,
+      "no_speech_prob": 0.30733761191368103,
+      "words": [
+        {
+          "word": " So,",
+          "start": 9.22,
+          "end": 9.38,
+          "probability": 0.825874924659729
+        },
+        {
+          "word": " jom",
+          "start": 9.68,
+          "end": 9.76,
+          "probability": 0.9454986453056335
+        },
+        {
+          "word": " kita",
+          "start": 9.76,
+          "end": 10.0,
+          "probability": 0.9086373448371887
+        },
+        {
+          "word": " terjauh",
+          "start": 10.0,
+          "end": 10.38,
+          "probability": 0.5107770711183548
+        },
+        {
+          "word": "-jauh.",
+          "start": 10.38,
+          "end": 10.56,
+          "probability": 0.7546633891761303
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 24.6,
+      "end": 26.6,
+      "text": " Apa yang membuatkan saya gembira?",
+      "tokens": [
+        51614,
+        37831,
+        5581,
+        1334,
+        45143,
+        5225,
+        9160,
+        7173,
+        65,
+        4271,
+        30,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3683390818851095,
+      "compression_ratio": 1.4094488188976377,
+      "no_speech_prob": 0.30733761191368103,
+      "words": [
+        {
+          "word": " Apa",
+          "start": 24.6,
+          "end": 25.12,
+          "probability": 0.8116568326950073
+        },
+        {
+          "word": " yang",
+          "start": 25.12,
+          "end": 25.32,
+          "probability": 0.8886415958404541
+        },
+        {
+          "word": " membuatkan",
+          "start": 25.32,
+          "end": 25.86,
+          "probability": 0.8961076339085897
+        },
+        {
+          "word": " saya",
+          "start": 25.86,
+          "end": 26.06,
+          "probability": 0.7536249160766602
+        },
+        {
+          "word": " gembira?",
+          "start": 26.06,
+          "end": 26.6,
+          "probability": 0.9182547330856323
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2660,
+      "start": 26.6,
+      "end": 30.76,
+      "text": " Okay, let me think. First of all, of course lah. Untuk parents",
+      "tokens": [
+        50364,
+        1033,
+        11,
+        718,
+        385,
+        519,
+        13,
+        2386,
+        295,
+        439,
+        11,
+        295,
+        1164,
+        26532,
+        13,
+        8256,
+        2034,
+        3152,
+        50569
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " Okay,",
+          "start": 26.6,
+          "end": 27.4,
+          "probability": 0.1339852660894394
+        },
+        {
+          "word": " let",
+          "start": 27.58,
+          "end": 27.6,
+          "probability": 0.8099873661994934
+        },
+        {
+          "word": " me",
+          "start": 27.6,
+          "end": 27.8,
+          "probability": 0.9037756323814392
+        },
+        {
+          "word": " think.",
+          "start": 27.8,
+          "end": 28.04,
+          "probability": 0.7394195795059204
+        },
+        {
+          "word": " First",
+          "start": 28.44,
+          "end": 28.76,
+          "probability": 0.6915400624275208
+        },
+        {
+          "word": " of",
+          "start": 28.76,
+          "end": 28.94,
+          "probability": 0.8978482484817505
+        },
+        {
+          "word": " all,",
+          "start": 28.94,
+          "end": 29.18,
+          "probability": 0.9002531170845032
+        },
+        {
+          "word": " of",
+          "start": 29.28,
+          "end": 29.42,
+          "probability": 0.8573464155197144
+        },
+        {
+          "word": " course",
+          "start": 29.42,
+          "end": 29.54,
+          "probability": 0.8539453148841858
+        },
+        {
+          "word": " lah.",
+          "start": 29.54,
+          "end": 29.98,
+          "probability": 0.8308299779891968
+        },
+        {
+          "word": " Untuk",
+          "start": 30.1,
+          "end": 30.38,
+          "probability": 0.929772287607193
+        },
+        {
+          "word": " parents",
+          "start": 30.38,
+          "end": 30.76,
+          "probability": 0.3753132224082947
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2660,
+      "start": 30.76,
+      "end": 34.22,
+      "text": " saya kan. So dengan melihat dia orang happy, apa yang saya",
+      "tokens": [
+        50569,
+        9160,
+        4608,
+        13,
+        407,
+        13877,
+        4795,
+        41650,
+        6801,
+        17481,
+        2055,
+        11,
+        15951,
+        5581,
+        9160,
+        50739
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " saya",
+          "start": 30.76,
+          "end": 31.02,
+          "probability": 0.8410499095916748
+        },
+        {
+          "word": " kan.",
+          "start": 31.02,
+          "end": 31.46,
+          "probability": 0.8637284636497498
+        },
+        {
+          "word": " So",
+          "start": 32.02,
+          "end": 32.48,
+          "probability": 0.7963634133338928
+        },
+        {
+          "word": " dengan",
+          "start": 32.48,
+          "end": 32.74,
+          "probability": 0.46709418296813965
+        },
+        {
+          "word": " melihat",
+          "start": 32.74,
+          "end": 33.1,
+          "probability": 0.904919445514679
+        },
+        {
+          "word": " dia",
+          "start": 33.1,
+          "end": 33.26,
+          "probability": 0.44406405091285706
+        },
+        {
+          "word": " orang",
+          "start": 33.26,
+          "end": 33.36,
+          "probability": 0.48332422971725464
+        },
+        {
+          "word": " happy,",
+          "start": 33.36,
+          "end": 33.68,
+          "probability": 0.7894536852836609
+        },
+        {
+          "word": " apa",
+          "start": 33.84,
+          "end": 33.94,
+          "probability": 0.8215614557266235
+        },
+        {
+          "word": " yang",
+          "start": 33.94,
+          "end": 34.06,
+          "probability": 0.8544442653656006
+        },
+        {
+          "word": " saya",
+          "start": 34.06,
+          "end": 34.22,
+          "probability": 0.8012610077857971
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2660,
+      "start": 34.22,
+      "end": 36.72,
+      "text": " boleh buat dekat dia orang, mungkin itu adalah, bukan",
+      "tokens": [
+        50739,
+        25835,
+        22186,
+        368,
+        20876,
+        6801,
+        17481,
+        11,
+        32633,
+        9032,
+        23555,
+        11,
+        31794,
+        50865
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " boleh",
+          "start": 34.22,
+          "end": 34.34,
+          "probability": 0.797333300113678
+        },
+        {
+          "word": " buat",
+          "start": 34.34,
+          "end": 34.54,
+          "probability": 0.8399234414100647
+        },
+        {
+          "word": " dekat",
+          "start": 34.54,
+          "end": 34.68,
+          "probability": 0.7234355211257935
+        },
+        {
+          "word": " dia",
+          "start": 34.68,
+          "end": 34.94,
+          "probability": 0.7350853681564331
+        },
+        {
+          "word": " orang,",
+          "start": 34.94,
+          "end": 35.22,
+          "probability": 0.8975613117218018
+        },
+        {
+          "word": " mungkin",
+          "start": 35.42,
+          "end": 35.78,
+          "probability": 0.7239127159118652
+        },
+        {
+          "word": " itu",
+          "start": 35.78,
+          "end": 36.1,
+          "probability": 0.7386373281478882
+        },
+        {
+          "word": " adalah,",
+          "start": 36.1,
+          "end": 36.38,
+          "probability": 0.9560449719429016
+        },
+        {
+          "word": " bukan",
+          "start": 36.58,
+          "end": 36.72,
+          "probability": 0.5794889330863953
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2660,
+      "start": 36.72,
+      "end": 39.7,
+      "text": " mungkin itu memang adalah satu kebahagiaan untuk saya lah.",
+      "tokens": [
+        50865,
+        32633,
+        9032,
+        39290,
+        23555,
+        27679,
+        803,
+        37346,
+        559,
+        654,
+        282,
+        12711,
+        9160,
+        26532,
+        13,
+        51011
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " mungkin",
+          "start": 36.72,
+          "end": 37.0,
+          "probability": 0.7974357604980469
+        },
+        {
+          "word": " itu",
+          "start": 37.0,
+          "end": 37.26,
+          "probability": 0.46991458535194397
+        },
+        {
+          "word": " memang",
+          "start": 37.26,
+          "end": 37.78,
+          "probability": 0.6498632431030273
+        },
+        {
+          "word": " adalah",
+          "start": 37.78,
+          "end": 38.14,
+          "probability": 0.7938947677612305
+        },
+        {
+          "word": " satu",
+          "start": 38.14,
+          "end": 38.4,
+          "probability": 0.6684548258781433
+        },
+        {
+          "word": " kebahagiaan",
+          "start": 38.4,
+          "end": 38.94,
+          "probability": 0.9397877216339111
+        },
+        {
+          "word": " untuk",
+          "start": 38.94,
+          "end": 39.08,
+          "probability": 0.7761000990867615
+        },
+        {
+          "word": " saya",
+          "start": 39.08,
+          "end": 39.36,
+          "probability": 0.5455254316329956
+        },
+        {
+          "word": " lah.",
+          "start": 39.36,
+          "end": 39.7,
+          "probability": 0.9005365967750549
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2660,
+      "start": 40.24,
+      "end": 44.26,
+      "text": " And then I achieve my goal. Contoh-contoh yang boleh buat",
+      "tokens": [
+        51011,
+        400,
+        550,
+        286,
+        4584,
+        452,
+        3387,
+        13,
+        4839,
+        1445,
+        12,
+        9000,
+        1445,
+        5581,
+        25835,
+        22186,
+        51235
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " And",
+          "start": 40.24,
+          "end": 40.42,
+          "probability": 0.8524264693260193
+        },
+        {
+          "word": " then",
+          "start": 40.42,
+          "end": 40.78,
+          "probability": 0.7498767375946045
+        },
+        {
+          "word": " I",
+          "start": 40.78,
+          "end": 41.64,
+          "probability": 0.4585832357406616
+        },
+        {
+          "word": " achieve",
+          "start": 41.64,
+          "end": 41.94,
+          "probability": 0.4614083170890808
+        },
+        {
+          "word": " my",
+          "start": 41.94,
+          "end": 42.18,
+          "probability": 0.8293060064315796
+        },
+        {
+          "word": " goal.",
+          "start": 42.18,
+          "end": 42.62,
+          "probability": 0.8425146341323853
+        },
+        {
+          "word": " Contoh",
+          "start": 42.94,
+          "end": 43.14,
+          "probability": 0.9164247214794159
+        },
+        {
+          "word": "-contoh",
+          "start": 43.14,
+          "end": 43.48,
+          "probability": 0.8750717043876648
+        },
+        {
+          "word": " yang",
+          "start": 43.48,
+          "end": 43.64,
+          "probability": 0.8693323135375977
+        },
+        {
+          "word": " boleh",
+          "start": 43.64,
+          "end": 43.88,
+          "probability": 0.8319406509399414
+        },
+        {
+          "word": " buat",
+          "start": 43.88,
+          "end": 44.26,
+          "probability": 0.8691650032997131
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2660,
+      "start": 44.26,
+      "end": 48.22,
+      "text": " keluar keluar bahagia macam mana tu? Saya bawa dia orang pergi",
+      "tokens": [
+        51235,
+        43365,
+        43365,
+        12913,
+        559,
+        654,
+        44921,
+        21225,
+        2604,
+        30,
+        16568,
+        272,
+        10449,
+        6801,
+        17481,
+        46857,
+        51431
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " keluar",
+          "start": 44.26,
+          "end": 44.92,
+          "probability": 0.7023683786392212
+        },
+        {
+          "word": " keluar",
+          "start": 44.92,
+          "end": 45.08,
+          "probability": 0.42850956320762634
+        },
+        {
+          "word": " bahagia",
+          "start": 45.08,
+          "end": 45.42,
+          "probability": 0.8793722788492838
+        },
+        {
+          "word": " macam",
+          "start": 45.42,
+          "end": 45.6,
+          "probability": 0.6941004991531372
+        },
+        {
+          "word": " mana",
+          "start": 45.6,
+          "end": 45.78,
+          "probability": 0.8187698125839233
+        },
+        {
+          "word": " tu?",
+          "start": 45.78,
+          "end": 45.94,
+          "probability": 0.6379295587539673
+        },
+        {
+          "word": " Saya",
+          "start": 46.62,
+          "end": 47.14,
+          "probability": 0.2765105664730072
+        },
+        {
+          "word": " bawa",
+          "start": 47.14,
+          "end": 47.32,
+          "probability": 0.9084782898426056
+        },
+        {
+          "word": " dia",
+          "start": 47.32,
+          "end": 47.6,
+          "probability": 0.752433180809021
+        },
+        {
+          "word": " orang",
+          "start": 47.6,
+          "end": 47.76,
+          "probability": 0.9049448370933533
+        },
+        {
+          "word": " pergi",
+          "start": 47.76,
+          "end": 48.22,
+          "probability": 0.8591572642326355
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2660,
+      "start": 48.22,
+      "end": 52.24,
+      "text": " bercuti. Itu for an example lah kan. Lepas tu pergi dia orang",
+      "tokens": [
+        51431,
+        272,
+        2869,
+        29161,
+        13,
+        39109,
+        337,
+        364,
+        1365,
+        26532,
+        4608,
+        13,
+        441,
+        595,
+        296,
+        2604,
+        46857,
+        6801,
+        17481,
+        51643
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " bercuti.",
+          "start": 48.22,
+          "end": 49.22,
+          "probability": 0.7836287717024485
+        },
+        {
+          "word": " Itu",
+          "start": 49.5,
+          "end": 49.7,
+          "probability": 0.6605253219604492
+        },
+        {
+          "word": " for",
+          "start": 49.7,
+          "end": 49.9,
+          "probability": 0.42222654819488525
+        },
+        {
+          "word": " an",
+          "start": 49.9,
+          "end": 49.98,
+          "probability": 0.4792313277721405
+        },
+        {
+          "word": " example",
+          "start": 49.98,
+          "end": 50.36,
+          "probability": 0.8516472578048706
+        },
+        {
+          "word": " lah",
+          "start": 50.36,
+          "end": 50.66,
+          "probability": 0.8413335680961609
+        },
+        {
+          "word": " kan.",
+          "start": 50.66,
+          "end": 51.1,
+          "probability": 0.9139288067817688
+        },
+        {
+          "word": " Lepas",
+          "start": 51.62,
+          "end": 51.84,
+          "probability": 0.8310704827308655
+        },
+        {
+          "word": " tu",
+          "start": 51.84,
+          "end": 51.96,
+          "probability": 0.7936180830001831
+        },
+        {
+          "word": " pergi",
+          "start": 51.96,
+          "end": 52.08,
+          "probability": 0.8070192933082581
+        },
+        {
+          "word": " dia",
+          "start": 52.08,
+          "end": 52.22,
+          "probability": 0.721412181854248
+        },
+        {
+          "word": " orang",
+          "start": 52.22,
+          "end": 52.24,
+          "probability": 0.8615044355392456
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2660,
+      "start": 52.24,
+      "end": 55.84,
+      "text": " makan-makan. Pergi makan-makan ke apa ke. Sangat happy",
+      "tokens": [
+        51643,
+        46616,
+        12,
+        8520,
+        282,
+        13,
+        3026,
+        7834,
+        46616,
+        12,
+        8520,
+        282,
+        803,
+        15951,
+        803,
+        13,
+        19037,
+        267,
+        2055,
+        51821
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.415516548968376,
+      "compression_ratio": 1.7611940298507462,
+      "no_speech_prob": 0.031591176986694336,
+      "words": [
+        {
+          "word": " makan",
+          "start": 52.24,
+          "end": 52.42,
+          "probability": 0.8977558016777039
+        },
+        {
+          "word": "-makan.",
+          "start": 52.42,
+          "end": 52.7,
+          "probability": 0.7231847246487936
+        },
+        {
+          "word": " Pergi",
+          "start": 52.9,
+          "end": 53.26,
+          "probability": 0.6753890961408615
+        },
+        {
+          "word": " makan",
+          "start": 53.26,
+          "end": 53.5,
+          "probability": 0.7375969290733337
+        },
+        {
+          "word": "-makan",
+          "start": 53.5,
+          "end": 53.9,
+          "probability": 0.8205553889274597
+        },
+        {
+          "word": " ke",
+          "start": 53.9,
+          "end": 54.04,
+          "probability": 0.45163169503211975
+        },
+        {
+          "word": " apa",
+          "start": 54.04,
+          "end": 54.22,
+          "probability": 0.593963086605072
+        },
+        {
+          "word": " ke.",
+          "start": 54.22,
+          "end": 54.6,
+          "probability": 0.9125891327857971
+        },
+        {
+          "word": " Sangat",
+          "start": 54.96,
+          "end": 55.48,
+          "probability": 0.626819983124733
+        },
+        {
+          "word": " happy",
+          "start": 55.48,
+          "end": 55.84,
+          "probability": 0.8065576553344727
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5584,
+      "start": 55.84,
+      "end": 58.62,
+      "text": " yang itu. Alright, alright. Seronoklah bercinta. Okey,",
+      "tokens": [
+        50364,
+        5581,
+        9032,
+        13,
+        2798,
+        11,
+        5845,
+        13,
+        4210,
+        266,
+        453,
+        14918,
+        272,
+        2869,
+        16071,
+        13,
+        38544,
+        11,
+        50500
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5243082046508789,
+      "compression_ratio": 1.0119047619047619,
+      "no_speech_prob": 0.062301602214574814,
+      "words": [
+        {
+          "word": " yang",
+          "start": 55.84,
+          "end": 56.16,
+          "probability": 0.1380099356174469
+        },
+        {
+          "word": " itu.",
+          "start": 56.16,
+          "end": 56.46,
+          "probability": 0.5497533679008484
+        },
+        {
+          "word": " Alright,",
+          "start": 56.6,
+          "end": 56.74,
+          "probability": 0.4294496178627014
+        },
+        {
+          "word": " alright.",
+          "start": 56.8,
+          "end": 56.94,
+          "probability": 0.3277014493942261
+        },
+        {
+          "word": " Seronoklah",
+          "start": 57.02,
+          "end": 57.42,
+          "probability": 0.766148280352354
+        },
+        {
+          "word": " bercinta.",
+          "start": 57.42,
+          "end": 57.92,
+          "probability": 0.6574410796165466
+        },
+        {
+          "word": " Okey,",
+          "start": 58.36,
+          "end": 58.62,
+          "probability": 0.8780027031898499
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5584,
+      "start": 58.7,
+      "end": 60.1,
+      "text": " okey. Thank you. Terima kasih.",
+      "tokens": [
+        50500,
+        277,
+        4119,
+        13,
+        1044,
+        291,
+        13,
+        6564,
+        4775,
+        35894,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5243082046508789,
+      "compression_ratio": 1.0119047619047619,
+      "no_speech_prob": 0.062301602214574814,
+      "words": [
+        {
+          "word": " okey.",
+          "start": 58.7,
+          "end": 58.8,
+          "probability": 0.8768509924411774
+        },
+        {
+          "word": " Thank",
+          "start": 58.92,
+          "end": 59.1,
+          "probability": 0.8204768896102905
+        },
+        {
+          "word": " you.",
+          "start": 59.1,
+          "end": 59.44,
+          "probability": 0.901983916759491
+        },
+        {
+          "word": " Terima",
+          "start": 59.58,
+          "end": 59.8,
+          "probability": 0.9615638256072998
+        },
+        {
+          "word": " kasih.",
+          "start": 59.8,
+          "end": 60.1,
+          "probability": 0.8777005672454834
+        }
+      ]
+    }
+  ],
+  "saved_at": "2025-09-21T01:39:17.693770",
+  "audio_filename": "recording.webm",
+  "word_count": 122,
+  "character_count": 738
+}

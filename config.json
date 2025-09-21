@@ -1,0 +1,35 @@
+{
+  "system": {
+    "name": "Enhanced Malaysian Speech-to-Text",
+    "version": "1.0.0",
+    "description": "Highest accuracy Malaysian speech recognition"
+  },
+  "services": {
+    "primary": "elevenlabs",
+    "fallback_order": ["mesolitica", "whisper"],
+    "elevenlabs_api_key": "",
+    "confidence_threshold": 0.8
+  },
+  "models": {
+    "whisper_model": "large-v2",
+    "mesolitica_model": "mesolitica/malaysian-whisper-medium",
+    "mesolitica_model_options": [
+      "mesolitica/malaysian-distil-whisper-large-v3",
+      "mesolitica/malaysian-whisper-medium",
+      "mesolitica/malaysian-whisper-base",
+      "mesolitica/malaysian-whisper-small-v3"
+    ],
+    "device": "auto"
+  },
+  "processing": {
+    "language": "ms",
+    "enable_preprocessing": true,
+    "enable_postprocessing": true,
+    "chunk_duration": 15,
+    "enable_smart_chunking": true,
+    "target_chunk_duration": 45,
+    "overlap_duration": 0.5,
+    "min_silence_duration": 0.5,
+    "energy_threshold": 0.02
+  }
+}

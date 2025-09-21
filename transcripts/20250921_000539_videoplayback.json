@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "transcript": ". Hi, Nama saya hari ini, anda sedang menjakan isteri malam saya pada hari ini. So jom kita terima kasih pada hari ini. Apa yang menjauhkan saya? Apa yang membuatkan saya gembira. Apa yang membuatkan saya.",
+  "confidence": 0.6291475296020508,
+  "language": "ms",
+  "service": "Mesolitica malaysian-distil-whisper-large-v3",
+  "word_error_rate": 0.08,
+  "model": "mesolitica/malaysian-distil-whisper-large-v3",
+  "chunks_processed": 1,
+  "saved_at": "2025-09-21T00:05:39.277196",
+  "audio_filename": "videoplayback.mp3",
+  "word_count": 36,
+  "character_count": 205
+}
