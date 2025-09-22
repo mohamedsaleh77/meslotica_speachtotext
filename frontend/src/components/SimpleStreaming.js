@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Mic, MicOff, Square, Volume2, AlertCircle, CheckCircle, Clock, Wifi, WifiOff, Zap, Target } from 'lucide-react';
+import API_URL from '../config';
 
 const SimpleStreaming = ({ serverStatus, onResult }) => {
   const [isRecording, setIsRecording] = useState(false);
@@ -147,7 +148,7 @@ const SimpleStreaming = ({ serverStatus, onResult }) => {
       formData.append('force_service', 'mesolitica'); // Force Mesolitica for streaming
 
       const startTime = Date.now();
-      const response = await fetch('/api/transcribe', {
+      const response = await fetch(`${API_URL}/api/transcribe`, {
         method: 'POST',
         body: formData
       });

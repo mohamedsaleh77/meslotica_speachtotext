@@ -1,0 +1,11 @@
+{
+  "filename": "chunk_20250921_100543_853_ab038ec0.wav",
+  "service": "Mesolitica malaysian-whisper-medium",
+  "transcript": " dan kuih-kuih itu ada di kedai anda.",
+  "confidence": 0.7556138634681702,
+  "language": "ms",
+  "processing_time": 0,
+  "timestamp": "2025-09-21T10:23:43.000866",
+  "file_path": "/workspace/khutbah/recordings/chunk_20250921_100543_853_ab038ec0.wav",
+  "type": "recording_transcription"
+}

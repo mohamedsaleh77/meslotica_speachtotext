@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, X, File, Play, CheckCircle, AlertCircle, Clock, BarChart } from 'lucide-react';
+import API_URL from '../config';
 
 const FileUpload = ({ serverStatus, onResult }) => {
   const [uploadedFiles, setUploadedFiles] = useState([]);
@@ -44,7 +45,7 @@ const FileUpload = ({ serverStatus, onResult }) => {
     const startTime = Date.now();
 
     try {
-      const response = await fetch('/api/transcribe', {
+      const response = await fetch(`${API_URL}/api/transcribe`, {
         method: 'POST',
         body: formData
       });

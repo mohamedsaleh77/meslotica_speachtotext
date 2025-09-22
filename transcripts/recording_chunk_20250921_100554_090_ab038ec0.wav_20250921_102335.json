@@ -1,0 +1,11 @@
+{
+  "filename": "chunk_20250921_100554_090_ab038ec0.wav",
+  "service": "Mesolitica malaysian-whisper-medium",
+  "transcript": " Hello everyone my name is Saleh hari ini saya makan-makan dalam projek saya so",
+  "confidence": 0.7963976263999939,
+  "language": "ms",
+  "processing_time": 0,
+  "timestamp": "2025-09-21T10:23:35.612852",
+  "file_path": "/workspace/khutbah/recordings/chunk_20250921_100554_090_ab038ec0.wav",
+  "type": "recording_transcription"
+}

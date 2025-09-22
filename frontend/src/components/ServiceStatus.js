@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { RefreshCw, CheckCircle, XCircle, AlertCircle, Settings, Server, Zap, DollarSign, Clock, Target } from 'lucide-react';
+import API_URL from '../config';
 
 const ServiceStatus = ({ serverStatus, onRefresh }) => {
   const [detailedStatus, setDetailedStatus] = useState(null);
@@ -11,7 +12,7 @@ const ServiceStatus = ({ serverStatus, onRefresh }) => {
 
   const fetchDetailedStatus = async () => {
     try {
-      const response = await fetch('/api/services/status');
+      const response = await fetch(`${API_URL}/api/services/status`);
       if (response.ok) {
         const data = await response.json();
         setDetailedStatus(data);

@@ -5,7 +5,10 @@ import SimpleStreaming from './components/SimpleStreaming';
 import FileUpload from './components/FileUpload';
 import ServiceStatus from './components/ServiceStatus';
 import ComparisonDashboard from './components/ComparisonDashboard';
-import { Mic, Upload, BarChart3, Settings, Zap, Target, Radio } from 'lucide-react';
+import RecordingBrowser from './components/RecordingBrowser';
+import TranscriptionViewer from './components/TranscriptionViewer';
+import { Mic, Upload, BarChart3, Settings, Zap, Target, Radio, FileAudio, Languages } from 'lucide-react';
+import API_URL from './config';
 
 function App() {
   const [activeTab, setActiveTab] = useState('live');
@@ -20,7 +23,7 @@ function App() {
 
   const checkServerStatus = async () => {
     try {
-      const response = await fetch('/health');
+      const response = await fetch(`${API_URL}/health`);
       const data = await response.json();
       setServerStatus(data);
     } catch (error) {
@@ -38,6 +41,8 @@ function App() {
     { id: 'streaming', label: 'Mesolitica Streaming', icon: Target },
     { id: 'simple', label: 'Simple Streaming', icon: Radio },
     { id: 'upload', label: 'File Upload', icon: Upload },
+    { id: 'recordings', label: 'Khutbah Recordings', icon: FileAudio },
+    { id: 'transcriptions', label: 'Transcription Viewer', icon: Languages },
     { id: 'comparison', label: 'Accuracy Comparison', icon: BarChart3 },
     { id: 'status', label: 'Service Status', icon: Settings },
   ];
@@ -159,6 +164,17 @@ function App() {
             serverStatus={serverStatus}
             onResult={addComparisonResult}
           />
+        )}
+
+        {activeTab === 'recordings' && (
+          <RecordingBrowser
+            serverStatus={serverStatus}
+            onResult={addComparisonResult}
+          />
+        )}
+
+        {activeTab === 'transcriptions' && (
+          <TranscriptionViewer />
         )}
 
         {activeTab === 'comparison' && (

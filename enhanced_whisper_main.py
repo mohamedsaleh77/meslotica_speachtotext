@@ -13,6 +13,7 @@ import logging
 import tempfile
 import time
 import requests
+import asyncio
 from typing import Optional, Dict, Any, List
 from pathlib import Path
 from datetime import datetime
@@ -48,7 +49,7 @@ app = FastAPI(title="Enhanced Malaysian Speech-to-Text", version="1.0.0")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*", "https://*.trycloudflare.com"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
@@ -1036,13 +1037,15 @@ async def list_saved_transcripts():
                         "confidence": data.get("confidence", 0),
                         "word_count": data.get("word_count", 0),
                         "character_count": data.get("character_count", 0),
-                        "transcript_preview": data.get("transcript", "")[:100] + "..." if data.get("transcript", "") else ""
+                        "transcript": data.get("transcript", ""),
+                        "transcript_preview": data.get("transcript", "")[:100] + "..." if data.get("transcript", "") else "",
+                        "timestamp": data.get("timestamp") or data.get("saved_at")
                     })
             except Exception as e:
                 logger.error(f"Error reading transcript file {json_file}: {e}")
 
-        # Sort by saved_at (newest first)
-        transcripts.sort(key=lambda x: x.get("saved_at", ""), reverse=True)
+        # Sort by saved_at or timestamp (newest first), handling None values
+        transcripts.sort(key=lambda x: x.get("saved_at") or x.get("timestamp") or "", reverse=True)
 
         return {
             "success": True,
@@ -1078,6 +1081,156 @@ async def get_transcript(filename: str):
 
     except Exception as e:
         logger.error(f"Error reading transcript {filename}: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"success": False, "error": str(e)}
+        )
+
+@app.get("/api/recordings")
+async def list_recordings():
+    """List all available recordings from khutbah/recordings folder"""
+    try:
+        recordings_path = Path("/workspace/khutbah/recordings")
+        if not recordings_path.exists():
+            return {
+                "success": True,
+                "recordings": [],
+                "message": "Recordings folder not found"
+            }
+
+        recordings = []
+        for file_path in recordings_path.glob("*.wav"):
+            if file_path.is_file():
+                file_stats = file_path.stat()
+                recordings.append({
+                    "filename": file_path.name,
+                    "size": file_stats.st_size,
+                    "modified": file_stats.st_mtime,
+                    "path": str(file_path)
+                })
+
+        # Sort by modification time (newest first)
+        recordings.sort(key=lambda x: x["modified"], reverse=True)
+
+        return {
+            "success": True,
+            "recordings": recordings,
+            "count": len(recordings)
+        }
+
+    except Exception as e:
+        logger.error(f"Error listing recordings: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"success": False, "error": str(e)}
+        )
+
+@app.post("/api/recordings/transcribe/{filename}")
+async def transcribe_recording(filename: str, service: str = "mesolitica"):
+    """Transcribe a specific recording file"""
+    try:
+        recordings_path = Path("/workspace/khutbah/recordings")
+        file_path = recordings_path / filename
+
+        if not file_path.exists():
+            return JSONResponse(
+                status_code=404,
+                content={"success": False, "error": "Recording file not found"}
+            )
+
+        if not file_path.suffix.lower() in ['.wav', '.mp3', '.m4a', '.flac']:
+            return JSONResponse(
+                status_code=400,
+                content={"success": False, "error": "Unsupported audio format"}
+            )
+
+        logger.info(f"🎯 Transcribing recording: {filename} with service: {service}")
+
+        # Use the existing pipeline to transcribe
+        result = await asyncio.get_event_loop().run_in_executor(
+            None,
+            pipeline.transcribe_with_best_accuracy,
+            str(file_path),
+            "ms"
+        )
+
+        if result["success"]:
+            # Save the transcript
+            transcript_data = {
+                "filename": filename,
+                "service": result["service"],
+                "transcript": result["transcript"],
+                "confidence": result.get("confidence", 0),
+                "language": result.get("language", "auto"),
+                "processing_time": result.get("processing_time", 0),
+                "timestamp": datetime.now().isoformat(),
+                "file_path": str(file_path),
+                "type": "recording_transcription"
+            }
+
+            # Save to transcripts folder
+            transcript_filename = f"recording_{filename}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            transcript_path = Path("transcripts") / transcript_filename
+            transcript_path.parent.mkdir(exist_ok=True)
+
+            with open(transcript_path, 'w', encoding='utf-8') as f:
+                json.dump(transcript_data, f, indent=2, ensure_ascii=False)
+
+            logger.info(f"✅ Recording transcription completed: {result['service']}")
+
+        return result
+
+    except Exception as e:
+        logger.error(f"Error transcribing recording {filename}: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"success": False, "error": str(e)}
+        )
+
+# Translation endpoints
+from translation_service import TranslationService
+
+# Initialize translation service
+# Set OPENAI_API_KEY environment variable or add to .env file
+translation_service = TranslationService(
+    api_key=os.getenv("OPENAI_API_KEY"),  # Load from environment variable
+    model="gpt-3.5-turbo"
+)
+
+@app.post("/api/translate")
+async def translate_text(text: str = Form(...), target_language: str = Form(...), source_language: str = Form("malay")):
+    """Translate text to specified language"""
+    try:
+        result = translation_service.translate(text, target_language, source_language)
+        return JSONResponse(content=result)
+    except Exception as e:
+        logger.error(f"Translation error: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"success": False, "error": str(e)}
+        )
+
+@app.post("/api/translate/multiple")
+async def translate_multiple(text: str = Form(...), source_language: str = Form("malay")):
+    """Translate text to English, Tamil, and Chinese"""
+    try:
+        result = translation_service.translate_multiple(text, source_language=source_language)
+        return JSONResponse(content=result)
+    except Exception as e:
+        logger.error(f"Translation error: {e}")
+        return JSONResponse(
+            status_code=500,
+            content={"success": False, "error": str(e)}
+        )
+
+@app.get("/api/translation/cache/stats")
+async def get_translation_cache_stats():
+    """Get translation cache statistics"""
+    try:
+        stats = translation_service.get_cache_stats()
+        return JSONResponse(content=stats)
+    except Exception as e:
+        logger.error(f"Error getting cache stats: {e}")
         return JSONResponse(
             status_code=500,
             content={"success": False, "error": str(e)}

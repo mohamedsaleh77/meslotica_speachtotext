@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Mic, MicOff, Square, Volume2, AlertCircle, Zap, Target } from 'lucide-react';
+import API_URL from '../config';
 
 const MesoliticaStreaming = ({ serverStatus, onResult }) => {
   const [isRecording, setIsRecording] = useState(false);
@@ -145,7 +146,7 @@ const MesoliticaStreaming = ({ serverStatus, onResult }) => {
 
       console.log(`📤 Sending chunk ${chunkNumber} for transcription...`);
 
-      const response = await fetch('/api/transcribe', {
+      const response = await fetch(`${API_URL}/api/transcribe`, {
         method: 'POST',
         body: formData
       });

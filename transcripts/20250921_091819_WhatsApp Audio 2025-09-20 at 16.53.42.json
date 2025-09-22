@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "transcript": "================================================================================\nTRANSCRIPTION WITH SPEAKER DIARIZATION\n================================================================================\n\n[00:00 - 02:57] Speaker 1:\nTerima kasih. Setakat hari ini, 80% daripada insiden pertama telah mencapai sasaran prestasi yang ditetapkan dengan beberapa projek rintis termasuk digitalisasi proses dalaman menunjukkan impak positif dari segi penjimatan, kos dan kecekapan operasi. maklumkan pun tidak dapat sedikit kelewatan daripada kuasa perlaksanaan sistem PRP baru disebabkan isu teknikal daripada kawalan.\n\nMasukan teknikal sedang berpengurusan berapat untuk menyesuaikan masalah ini dan jantung akan kembali ke jendela asal jendela akhir. Akhir sekali, kami ingin mempunyai kelebihan daripada lembaga bagi memperlukan hampa 5% bajet operasi kepada unit inovasi untuk membolehkan kekembangan kapasiti R&D bagi suku keempat. Sekian laporan ringkas daripada saya.\n\nSaya sedia menerima sebarang maklum balas atau pertanyaan yang telah diberikan. Terima kasih. Terima kasih kerana menonton!\n\nTerima kasih atas maklum balas awal yang diberikan oleh ahli-ahli lembaga menjawab kepada cadangan yang berbahagia Tan Sri tadi mengenai keperluan semakan semula struktur takbir urus projek kami telah mula menilai semua rangka kerja kawalan dalam khususnya dalam aspek penantuan hasil dan pelakuran berkala. Selain itu, unit sumber manusia juga sedang merangka pelan pembangunan bakat yang menyeluruh dengan tumpuan kepada latihan kepimpinan untuk pegawai kanan dan program pelapis untuk jawatan kritikal. ini akan memperkukuhkan daya tahan organisasi dalam jangka masa panjang.\n\nUntuk makluman semua, audit dalaman suhu keempat akan bermula pada minggu hadapan dan akan melibatkan pemeriksaan menyeluruh ke atas tiga jabatan pertama, kewangan, operasi dan teknologi maklumat. Laporan audit dijangka siap selewat-lewatnya pada 15 bulan bulan hadapan dan akan dibentangkan dalam mesyuarat lembaga berikut. Dengan itu, saya serahkan kembali kepada Tuan Kusi untuk meneruskan agenda seterusnya.\n\n----------------------------------------\n\n\n================================================================================\nSUMMARY\n================================================================================\nTotal Speakers: 1\nTotal Duration: 2:57\nTotal Chunks: 10",
+  "confidence": 0.9377668797969818,
+  "language": "ms",
+  "service": "Mesolitica malaysian-whisper-medium (Enhanced V3)",
+  "word_error_rate": 0.12,
+  "model": "mesolitica/malaysian-whisper-medium",
+  "chunks_processed": 10,
+  "total_chunks": 10,
+  "speakers_detected": 1,
+  "chunking_method": "Enhanced V3 with speaker diarization",
+  "processing_mode": "Parallel GPU",
+  "saved_at": "2025-09-21T09:18:19.839274",
+  "audio_filename": "WhatsApp Audio 2025-09-20 at 16.53.42.mp3",
+  "word_count": 276,
+  "character_count": 2353
+}

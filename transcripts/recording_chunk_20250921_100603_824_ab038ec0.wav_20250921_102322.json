@@ -1,0 +1,11 @@
+{
+  "filename": "chunk_20250921_100603_824_ab038ec0.wav",
+  "service": "Mesolitica malaysian-whisper-medium",
+  "transcript": " Dan kemudian kami mempunyai mesyuarat dengan Joshua dan pasukan hari ini.",
+  "confidence": 0.9552926421165466,
+  "language": "ms",
+  "processing_time": 0,
+  "timestamp": "2025-09-21T10:23:22.832506",
+  "file_path": "/workspace/khutbah/recordings/chunk_20250921_100603_824_ab038ec0.wav",
+  "type": "recording_transcription"
+}

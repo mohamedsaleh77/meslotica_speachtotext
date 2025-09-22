@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Mic, MicOff, Square, Play, Pause, Volume2, AlertCircle, CheckCircle, Clock } from 'lucide-react';
+import API_URL from '../config';
 
 const LiveTranscription = ({ serverStatus, onResult }) => {
   const [isRecording, setIsRecording] = useState(false);
@@ -182,7 +183,7 @@ const LiveTranscription = ({ serverStatus, onResult }) => {
       formData.append('force_service', selectedService);
 
       const startTime = Date.now();
-      const response = await fetch('/api/transcribe', {
+      const response = await fetch(`${API_URL}/api/transcribe`, {
         method: 'POST',
         body: formData
       });
@@ -220,7 +221,7 @@ const LiveTranscription = ({ serverStatus, onResult }) => {
       formData.append('force_service', selectedService);
 
       const startTime = Date.now();
-      const response = await fetch('/api/transcribe', {
+      const response = await fetch(`${API_URL}/api/transcribe`, {
         method: 'POST',
         body: formData
       });
